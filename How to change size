@@ -1,1 +1,17 @@
-TEST TEST TEST
+To change the Length, Height, and Width.
+
+-You just edit the desired dimensions. The default dimensions and thicknesses are listed below.
+
+OPEN SCAD CODE: 
+```
+width = 50;
+depth = 50;
+height = 15;
+wallThickness = 1.5;
+hingeOuter = 7;
+hingeInner = 4;
+hingeInnerSlop = .4;
+hingeFingerSlop = .4;
+fingerLength = hingeOuter/1.65;
+fingerSize = 6.5;
+```
